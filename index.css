@@ -561,7 +561,7 @@ h3 {
 }
 @media (max-width: 1204px){
     .banner {
-        height: 72vh;
+        height: 72vh !important;
         top: 84px;
     }
     .logoonslide {
@@ -1209,6 +1209,12 @@ h3 {
     .subBox .sub_title {
         font-size: 40px;
         margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .banner{
+        height: 50vh !important;
     }
 }
 
