@@ -539,6 +539,9 @@ h3 {
         height: 83vh;
         top: 84px;
     }
+    .gradient{
+        height: 90% !important;
+    }
     .title_double {
         font-size: 166px;
        
