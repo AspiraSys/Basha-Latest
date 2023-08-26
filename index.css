@@ -1229,9 +1229,20 @@ h3 {
     }
 }
 
-@media (max-width:400px) {
+@media screen and (max-width: 414px) {
+    .banner{
+        height: 45vh !important;
+    }
+}
 
+@media (max-width:400px) {
+    .banner{
+        height: 65vh !important;
+    }
  
+    #cardsbg{
+        top: 25rem;
+    }
 
     #locicon {
         width: 6%;
@@ -1256,6 +1267,9 @@ h3 {
         font-size: 51px;
     }
 
+    .bashacontainer {
+        top: 292px;
+    }
     .subBox .sub_title {
         font-size: 35px;
         margin-top: 10px;
@@ -1264,7 +1278,9 @@ h3 {
 
 }
 
-@media (max-width: 350px) {
+@media screen and (max-width: 350px) {
+
+    
 
     .title_double {
         font-size: 37px;
