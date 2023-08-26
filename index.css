@@ -502,6 +502,9 @@ h3 {
 } */
 
 @media (max-width: 1447px){
+    body{
+        background-color: blue;
+    }
     .banner {
         height: 80vh;
         top: 84px;
