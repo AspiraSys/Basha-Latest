@@ -1236,9 +1236,9 @@ h3 {
 }
 
 @media (max-width:400px) {
-    .banner{
+    /* .banner{
         height: 65vh !important;
-    }
+    } */
  
     #cardsbg{
         top: 25rem;
