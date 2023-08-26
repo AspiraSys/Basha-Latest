@@ -1251,7 +1251,10 @@ h3 {
 /* mobile */
 @media screen and (min-width: 480px) and (orientation: landscape) {
     .banner {
-      height: 50vh !important;
+      height: 5vh !important;
+    }
+    .gradient{
+        height: 25%;
     }
 }
 @media screen and (max-width: 400px) {
