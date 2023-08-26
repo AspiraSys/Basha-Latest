@@ -503,9 +503,11 @@ h3 {
 
 @media (max-width: 1447px){
     .banner {
-        height: 69vh;
+        height: 80vh;
         top: 84px;
     }
+
+    
     .addtocard {
         top: 464px;
         right: 100px;
@@ -521,7 +523,7 @@ h3 {
 }
 @media (max-width: 1366px){
     .banner {
-        height: 65vh;
+        height: 80vh;
         top: 84px;
     }
     .slogan {
@@ -531,9 +533,11 @@ h3 {
     
 }
 
+/* laptop */
+
 @media (max-width: 1286px){
     .banner {
-        height: 60vh;
+        height: 80vh;
         top: 84px;
     }
     .title_double {
@@ -560,9 +564,8 @@ h3 {
  
 }
 
-/* Laptop */
 
-@media (max-width: 1204px){
+@media screen and (max-width: 1204px){
     .banner {
         height: 80vh !important;
         top: 84px;
@@ -626,6 +629,7 @@ h3 {
 }
 @media (max-width:1050px){
     .banner {
+
         height: 65vh;
     }
 }
@@ -1295,7 +1299,7 @@ h3 {
 @media screen and (max-width: 350px) {
 
     .banner{
-        height: 5vh !important;
+        height: 60vh !important;
     }
 
     #cardsbg{
