@@ -503,7 +503,7 @@ h3 {
 
 @media (max-width: 1447px){
     .banner {
-        height: 80vh;
+        /* height: 80vh; */
         top: 84px;
     }
     .gradient{
