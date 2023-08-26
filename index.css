@@ -510,10 +510,12 @@ h3 {
         top: 84px;
     }
     .gradient{
-        height: 30%;
+        height: 25%;
     }
     #cardsbg{
-        top: 0rem
+        width: 100%;
+        display: flex;
+        flex-direction: row;
     }
     .addtocard {
         top: 464px;
