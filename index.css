@@ -1248,14 +1248,14 @@ h3 {
 /* mobile */
 
 @media screen and (max-width: 400px) {
-    
+
     .banner{
-        height: 50vh !important;
+        height: 45vh !important;
     }
 
     
     #cardsbg{
-        top: 25rem;
+        top: 28rem;
     }
 
     #locicon {
