@@ -1329,7 +1329,7 @@ h3 {
 
 @media (max-width: 350px) {
     .banner{
-        display: none !important;
+        height: 20vh !important;
     }
 
     .title_double {
