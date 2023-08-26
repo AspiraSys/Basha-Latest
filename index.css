@@ -559,6 +559,9 @@ h3 {
     
  
 }
+
+/* Laptop */
+
 @media (max-width: 1204px){
     .banner {
         height: 80vh !important;
@@ -701,6 +704,9 @@ h3 {
         margin: 5px 20px;
     };
 }
+
+/* tab */
+
 @media (max-width: 900px) {
     .banner {
         height: 53vh;
@@ -1229,11 +1235,15 @@ h3 {
     }
 }
 
-@media screen and (max-width: 414px) {
+/* Iphones */
+
+@media screen and (min-width:414) and ( max-width: 399px) {
     .banner{
         height: 45vh !important;
     }
 }
+
+/* mobile */
 
 @media (max-width:400px) {
     /* .banner{
@@ -1281,7 +1291,7 @@ h3 {
 @media screen and (max-width: 350px) {
 
     .banner{
-        height: 52vh !important;
+        height: 65vh !important;
     }
 
     .title_double {
