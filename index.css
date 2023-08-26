@@ -1255,8 +1255,11 @@ h3 {
     .banner{
         height: 90vh;
     }
+    .gradient{
+        height: 100%;
+    }
     #firstbehind{
-        height: 62% !important;
+        height: 60% !important;
     }
     #secondbehind{
         height: 57% !important;
