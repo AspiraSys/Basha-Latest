@@ -1224,7 +1224,8 @@ h3 {
     }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
+    
     .title_double {
         font-size: 58px;
     }
@@ -1238,6 +1239,7 @@ h3 {
 /* Iphones */
 
 @media screen and (min-width:414) and ( max-width: 399px) {
+    
     .banner{
         height: 45vh !important;
     }
@@ -1245,13 +1247,10 @@ h3 {
 
 /* mobile */
 
-@media (max-width:400px) {
-    /* .banner{
-        height: 65vh !important;
-    } */
- 
-    #cardsbg{
-        top: 25rem;
+@media screen and (max-width: 400px) {
+    
+    .banner{
+        height: 60vh;
     }
 
     #locicon {
@@ -1274,11 +1273,11 @@ h3 {
     width: 78%;
    }
     .title_double {
-        font-size: 51px;
+        font-size: 48px;
     }
 
     .bashacontainer {
-        top: 292px;
+        top: 340px;
     }
     .subBox .sub_title {
         font-size: 35px;
@@ -1294,6 +1293,10 @@ h3 {
         height: 65vh !important;
     }
 
+    #cardsbg{
+        top: 25rem;
+    }
+
     .title_double {
         font-size: 37px;
     }
@@ -1303,7 +1306,10 @@ h3 {
         margin-top: 10px;
     }
     
- 
+    .bashacontainer {
+        top: 280px;
+    }
+
     #delivery{
         width: 57%;
     }
