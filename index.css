@@ -1214,7 +1214,7 @@ h3 {
 
 @media screen and (max-width: 414px) {
     .banner{
-        height: 50vh !important;
+        height: 40vh !important;
     }
 }
 
