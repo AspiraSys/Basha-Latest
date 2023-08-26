@@ -1280,7 +1280,9 @@ h3 {
 
 @media screen and (max-width: 350px) {
 
-    
+    .banner{
+        height: 52vh !important;
+    }
 
     .title_double {
         font-size: 37px;
@@ -1296,7 +1298,7 @@ h3 {
         width: 57%;
     }
     .footerpath-D{
-top: 400px;
+        top: 400px;
     }
 }
 @media(max-width:250px){
