@@ -509,7 +509,9 @@ h3 {
         height: 80vh;
         top: 84px;
     }
-
+    .gradient{
+        height: 5%;
+    }
     
     .addtocard {
         top: 464px;
