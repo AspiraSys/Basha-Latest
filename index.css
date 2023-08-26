@@ -510,7 +510,7 @@ h3 {
         height: 25%;
     }
     #cardsbg{
-      top: 0px !important;
+      top: -40% !important;
     }
     .addtocard {
         top: 464px;
