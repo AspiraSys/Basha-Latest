@@ -1328,6 +1328,9 @@ h3 {
 }
 
 @media (max-width: 350px) {
+    .banner{
+        height: 60vh;
+    }
 
     .title_double {
         font-size: 37px;
