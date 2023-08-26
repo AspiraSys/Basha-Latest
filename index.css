@@ -540,7 +540,7 @@ h3 {
         top: 84px;
     }
     .gradient{
-        height: 90% !important;
+        height: 100% !important;
     }
     .title_double {
         font-size: 166px;
@@ -1250,18 +1250,18 @@ h3 {
 }
 
 /* mobile */
-@media screen and (min-width: 480px) and (orientation: landscape) {
+@media screen and (max-width: 480px) and (orientation: landscape) {
     .banner {
       height: 100vh !important;
     }
     .gradient{
-        /* height: auto !important; */
+        height: 98%;
     }
     #firstbehind{
         height: 62%;
     }
     #secondbehind{
-        height: 58%;
+        height: 57%;
     }
 }
 @media screen and (max-width: 400px) {
