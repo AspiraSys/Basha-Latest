@@ -414,7 +414,7 @@ h3 {
 
 @media screen and (max-width: 1280px) {
     .banner {
-        height: 80vh !important;
+        /* height: 80vh !important; */
     }
 }
 
