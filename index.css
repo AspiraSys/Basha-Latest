@@ -522,7 +522,7 @@ h3 {
 }
 @media (max-width: 1366px){
     .banner {
-        height: 80vh;
+        height: 90vh;
         top: 84px;
     }
     .slogan {
@@ -534,9 +534,9 @@ h3 {
 
 /* laptop */
 
-@media (max-width: 1286px){
+@media (max-width: 1286px) and (orientation: portrait){
     .banner {
-        height: 83vh;
+        /* height: 100vh !important; */
         top: 84px;
     }
     .gradient{
@@ -1251,7 +1251,10 @@ h3 {
 
 /* mobile */
 
-@media (max-width: 400px) and (orientation: landscape) {
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+    body{
+        background-color: green !important;
+    }
     .banner{
         height: 90vh;
     }
