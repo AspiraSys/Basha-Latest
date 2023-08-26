@@ -108,17 +108,10 @@
 
 #cardone:hover {
     box-shadow: 0px 0px 20px 20px rgb(196, 194, 194);
-
 }
 
-
-
-
 .sociallogo img {
-
-    /* float: right; */
     width: 5%;
-
 }
 
 #cardsbg {
@@ -258,8 +251,6 @@ h3 {
     width: 50%;
     padding: 10px;
     cursor: pointer;
-
-    /* margin: 20px; */
 }
 
 .socialicon img {
@@ -277,14 +268,13 @@ h3 {
 
 .navbar-dark .na {
     display: none;
-
-
 }
 
-/* Gradient   */
+/* Gradient */
+
 .banner {
     width: 100%;
-    height: 84vh;
+    /* height: 80vh !important; */
     display: flex;
     position: relative;
     top: 80px;
