@@ -1252,16 +1252,16 @@ h3 {
 /* mobile */
 @media screen and (max-width: 480px) and (orientation: landscape) {
     .banner {
-      height: 100vh !important;
+      height: 102vh !important;
     }
     .gradient{
         height: 98%;
     }
     #firstbehind{
-        height: 62%;
+        height: 60%;
     }
     #secondbehind{
-        height: 57%;
+        height: 58%;
     }
 }
 @media screen and (max-width: 400px) {
