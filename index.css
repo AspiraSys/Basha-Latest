@@ -977,6 +977,9 @@ h3 {
 }
 
 @media (max-width: 650px){
+    #cardsbg {
+        top: 470px;
+    }
     .title_double {
         font-size: 87px;
     }
