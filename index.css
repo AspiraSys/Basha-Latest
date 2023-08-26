@@ -503,15 +503,10 @@ h3 {
 
 @media (max-width: 1447px){
     .banner {
-        /* height: 80vh; */
+        height: 80vh;
         top: 84px;
     }
-    .gradient{
-        height: 25%;
-    }
-    #cardsbg{
-      top: -40% !important;
-    }
+    
     .addtocard {
         top: 464px;
         right: 100px;
