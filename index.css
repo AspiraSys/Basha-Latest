@@ -1293,7 +1293,9 @@ h3 {
 
 @media (max-width:400px) {
 
-
+    .banner{
+        height: 20vh !important;
+    }
 
     #locicon {
         width: 6%;
@@ -1352,6 +1354,10 @@ h3 {
 }
 
 @media(max-width:250px) {
+
+    .banner{
+        height: 20vh !important;
+    }
     .title_double {
         font-size: 35px;
     }
