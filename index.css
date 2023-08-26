@@ -1256,6 +1256,12 @@ h3 {
     .gradient{
         height: 99%;
     }
+    #firstbehind{
+        height: 62%;
+    }
+    #secondbehind{
+        height: 58%;
+    }
 }
 @media screen and (max-width: 400px) {
 
