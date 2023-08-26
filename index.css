@@ -1249,9 +1249,9 @@ h3 {
 
 @media screen and (max-width: 400px) {
     
-    /* .banner{
-        height: 60vh;
-    } */
+    .banner{
+        height: 10vh !important;
+    }
 
     #locicon {
         width: 6%;
