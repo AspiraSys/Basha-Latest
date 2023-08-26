@@ -1258,10 +1258,10 @@ h3 {
         height: 98%;
     }
     #firstbehind{
-        height: 60%;
+        height: 60% !important;
     }
     #secondbehind{
-        height: 58%;
+        height: 58% !important;
     }
 }
 @media screen and (max-width: 400px) {
