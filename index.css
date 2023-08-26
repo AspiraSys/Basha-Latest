@@ -1290,7 +1290,7 @@ h3 {
 @media screen and (max-width: 350px) {
 
     .banner{
-        height: 65vh !important;
+        height: 5vh !important;
     }
 
     #cardsbg{
