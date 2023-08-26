@@ -1249,7 +1249,11 @@ h3 {
 }
 
 /* mobile */
-
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    .banner {
+      height: 42vh !important;
+    }
+}
 @media screen and (max-width: 400px) {
 
     .banner{
