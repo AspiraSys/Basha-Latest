@@ -510,9 +510,11 @@ h3 {
         top: 84px;
     }
     .gradient{
-        height: 5%;
+        height: 45%;
     }
-    
+    #cardsbg{
+        top: 20rem
+    }
     .addtocard {
         top: 464px;
         right: 100px;
