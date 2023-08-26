@@ -510,11 +510,7 @@ h3 {
         height: 25%;
     }
     #cardsbg{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        background: 'green' !important;
+      top: 0px !important;
     }
     .addtocard {
         top: 464px;
