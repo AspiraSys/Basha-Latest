@@ -1250,7 +1250,12 @@ h3 {
 @media screen and (max-width: 400px) {
     
     .banner{
-        height: 10vh !important;
+        height: 65vh !important;
+    }
+
+    
+    #cardsbg{
+        top: 25rem;
     }
 
     #locicon {
@@ -1277,7 +1282,7 @@ h3 {
     }
 
     .bashacontainer {
-        top: 340px;
+        top: 300px;
     }
     .subBox .sub_title {
         font-size: 35px;
