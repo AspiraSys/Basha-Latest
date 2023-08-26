@@ -1251,7 +1251,7 @@ h3 {
 
 /* mobile */
 
-@media only screen and (min-width: 480px) and (orientation: landscape) {
+/* @media only screen and (min-width: 480px) and (orientation: landscape) {
     .banner{
         height: 90vh;
     }
@@ -1264,7 +1264,7 @@ h3 {
     #secondbehind{
         height: 57% !important;
     }
-}
+} */
 
 @media screen and (max-width: 400px) {
 
