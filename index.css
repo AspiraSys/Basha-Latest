@@ -1250,18 +1250,15 @@ h3 {
 }
 
 /* mobile */
-@media screen and (min-width: 480px)and (max-width: 400px) and (orientation: landscape) {
-    .banner {
-      height: 102vh !important;
-    }
+@media (min-width: 450px) and (orientation: landscape) {
     .gradient{
-        height: 98%;
+        /* height: 90%; */
     }
     #firstbehind{
-        height: 60% !important;
+        height: 62% !important;
     }
     #secondbehind{
-        height: 58% !important;
+        height: 57% !important;
     }
 }
 @media screen and (max-width: 400px) {
