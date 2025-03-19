@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basha Biriyani</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/f5b6191954.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav>
+        <!-- Location -->
+        <div class="location-container">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Ambur</span>
+        </div>
+
+        <!-- Call & Whatsapp in navBar-->
+        <ul class="navbar">
+            <li><a href="tel:+917010933659"><i class="fa-solid fa-phone"></i> Call</a></li>
+            <li><a href="https://wa.me/+917010933659?text=Hello%20I%20have%20an%20inquiry" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a></li>
+        </ul>
+
+        <!-- Logo -->
+        <a href="/" class="logo">
+            <img src="./images/Basha Transparent Logo R.png" alt="Logo">
+        </a>
+    </nav>
+    <section class="banner">
+        <img src="./Images/Banner.png" alt="Banner Image"> <!--For Desktop/Laptop and Tab-->
+        <video src="./Images/Banner Video.mp4" alt="Banner Video" loop autoplay muted
+            class="banner-vid"></video><!--For Desktop/Laptop and Tab-->
+        <div class="content" id="home">
+            <div class="container relative text-white mr-auto my-auto px-4 flex flex-col justify-center hero-container">
+                <p class="text-yellow-500 text-xl tracking-[1px] mb-3 hero-subtitle font-semibold">
+                    Authentic....... Aromatic....... Addictive
+                </p>
+                <div class="hero-title-img mb-2">
+                    <img src="./Images/KING OF ALL FOOD.png" alt="KING OF ALL FOOD">
+                </div>
+                <p class="text-gray-300 mb-8 text-xl hero-text">
+                    Spiced to Perfection, Served with Tradition!
+                </p>
+            </div>
+            <div class="banner-button relative bottom-5">
+                <button
+                    class="bg-yellow-500 text-red-900 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-yellow-600 transition banner-btn"
+                    onclick="openPopup()">
+                    <p>Order Now</p>
+                </button>
+                <!-- Call & Whatsapp in banner -->
+                <a href="tel:+917010933659"><i class="fa-solid fa-phone bg-yellow-500
+                                        text-red-900 font-bold py-3 px-3 rounded-full shadow-lg hover:bg-yellow-600
+                                        transition call-btn banner-btn"></i></a>
+                <a href="https://wa.me/+917010933659?text=Hello%20I%20have%20an%20inquiry" target="_blank"><i class="fab fa-whatsapp bg-yellow-500
+                                    text-red-900 font-bold py-3 px-3 rounded-full shadow-lg hover:bg-yellow-600
+                                    transition call-btn banner-btn"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full-Screen Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <button class="close-btn" onclick="closePopup()">✖</button>
+            <h2 class="popup-title">Order From:</h2>
+
+            <!-- Swiggy & Zomato Box Container -->
+            <div class="full-screen-container">
+                <a href="https://www.swiggy.com/city/ambur/basha-ambur-indira-nagar-rest915085"" target=" _blank"
+                    class="full-screen-box swiggy">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.png" alt="Swiggy Logo">
+                </a>
+                <a href="https://www.zomato.com/ambur/basha-ambur-locality/order" target="_blank"
+                    class="full-screen-box zomato">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" alt="Zomato Logo">
+                </a>
+                <a href="tel:+917010933659" target="_blank" class="full-screen-box phone">
+                    <img src="https://cdn.pixabay.com/photo/2021/10/29/21/40/phone-icon-6753051_1280.png"
+                        alt="Phone Logo">
+                </a>
+                <a href="https://wa.me/+917010933659?text=Hello%20I%20have%20an%20inquiry" target="_blank"
+                    class="full-screen-box whatsapp">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png"
+                        alt="WhatsApp Logo">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner2 For desktop/Laptop and Tablet -->
+    <section class="banner2">
+        <div class="banner2-left">
+            <h2>HYDERABAD CHICKEN BIRYANI</h2>
+            <img src="./Images/Handi Hot.jpg" alt="">
+            <!-- <div class="steam"></div>
+            <div class="steam"></div>
+            <div class="steam"></div> -->
+        </div>
+        <div class="banner2-right">
+            <p>Hyderabad biryani (also known as Hyderabad dum biryani) originated from Golconda, Telangana India, made
+                with basmati rice and meat Originating in the kitchens of the
+                Qutub Shahi Kingdom. It combines the elements of Hyderabad and later on the Great Mughalai Cuisines.
+                Hyderabad biryani is a key dish flourished During the period of the 6th Nizam of Hyderabad Sir Mir
+                Mehboob Ali Khan Asaf Jah and it is so famous that the dish is considered synonymouswith the city of
+                Hyderabad.</p>
+            <img src="./Images/Hyderabad.png" alt="Hyderabad Charminar" class="charminar-img">
+            <img src="./Images/Nizam.jpg" alt="Nizam" class="nizam-img">
+        </div>
+    </section>
+
+    <!-- Banner2 For Phone from 540px -->
+    <section class="banner2-ph">
+        <div class="banner2-ph-top">
+            <h2>HYDERABAD CHICKEN BIRYANI</h2>
+        </div>
+        <div class="banner2-ph-mid">
+            <div class="banner2-ph-left">
+                <img src="./Images/Handi Hot.jpg" alt="">
+            </div>
+            <div class="banner2-ph-right">
+                <img src="./Images/Hyderabad.png" alt="Hyderabad Charminar" class="charminar-img">
+                <img src="./Images/Nizam.jpg" alt="Nizam" class="nizam-img">
+            </div>
+        </div>
+        <div class="banner2-ph-bottom">
+            <p>Hyderabad biryani (also known as Hyderabad dum biryani) originated from Golconda, Telangana India, made
+                with basmati rice and meat Originating in the kitchens of the
+                Qutub Shahi Kingdom. It combines the elements of Hyderabad and later on the Great Mughalai Cuisines.
+                Hyderabad biryani is a key dish flourished During the period of the 6th Nizam of Hyderabad Sir Mir
+                Mehboob Ali Khan Asaf Jah and it is so famous that the dish is considered synonymouswith the city of
+                Hyderabad.</p>
+        </div>
+    </section>
+
+
+    <!-- Menu Section  -->
+    <section class="bg-gray-100" id="menu">
+
+        <div class="container mx-auto py-12">
+            <div class="text-center mb-8">
+                <h2 class="text-sm text-gray-500 uppercase">
+                    Popular Dishes
+                </h2>
+                <h1 class="text-4xl font-bold text-gray-800">
+                    Our
+                    <span class="text-orange-500">
+                        Delicious
+                    </span>
+                    Foods
+                </h1>
+                <p class="text-gray-500 mt-2">
+                    Freshly made, packed with flavor — Enjoy your meal on the go!
+                </p>
+            </div>
+            <div class="flex flex-wrap justify-center  mb-8">
+                <!-- <button class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full mx-2 my-1 filter-btn active">
+                    All
+                </button> -->
+                <!-- <button class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full mx-2 my-1 filter-btn">
+                    Biriyani
+                </button> -->
+                <!-- <button class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full mx-2 my-1 filter-btn">
+                    Pizza
+                </button>
+                <button class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full mx-2 my-1 filter-btn">
+                    Burger
+                </button> -->
+                <!-- <button class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full mx-2 my-1 filter-btn">
+                    Sandwich
+                </button> -->
+                <!-- <button class="px-4 py-2 bg-gray-200 text-gray-800 rounded-full mx-2 my-1 filter-btn">
+                    Drinks
+                </button> -->
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-lg p-4 card" data-category="Biriyani">
+                    <div class="relative">
+                        <img alt="A Single pack of Hyderabad Chicken Biriyani"
+                            class="w-full h-48 object-cover rounded-t-lg" height="300" src="./Images/Menu-1.jpg"
+                            width="300" />
+                        <span class="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                            -25%
+                        </span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-500">
+                            Hyderabad Biriyani
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                        </p>
+                        <h3 class="text-lg font-bold text-gray-800">
+                            Chicken Biriyani (Single Pack)
+                        </h3>
+                        <p class="text-orange-500 font-bold">
+                            PRICE: ₹90
+                            <span class="line-through text-gray-500">
+                                ₹120
+                            </span>
+                            <span class="text-gray-500 text-sm  font-bold"> (Takeaway Price)</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-lg p-4 card" data-category="Biriyani">
+                    <div class="relative">
+                        <img alt="A Combo pack of Hyderabad Chicken Biriyani with various side dishes"
+                            class="w-full h-48 object-cover rounded-t-lg" height="300" src="./Images/Menu-2.jpg"
+                            width="300" />
+                        <span class="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                            -25%
+                        </span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-500">
+                            Hyderabad Biriyani
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                        </p>
+                        <h3 class="text-lg font-bold text-gray-800">
+                            Chicken Biriyani (Combo Pack)
+                        </h3>
+                        <p class="text-gray-500 text-xs mb-1 font-semibold">
+                            REGULAR BOX | MIRCHI GRAVY | RAITA/PICKLE & SWEET
+                        </p>
+                        <p class="text-orange-500 font-bold">
+                            PRICE: ₹130
+                            <span class="line-through text-gray-500">
+                                ₹180
+                            </span>
+                            <span class="text-gray-500 text-sm  font-bold"> (Takeaway Price)</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg p-4 card" data-category="Biriyani">
+                    <div class="relative">
+                        <img alt="A Family pack of Hyderabad Chicken Biriyani with various side dishes"
+                            class="w-full h-48 object-cover rounded-t-lg" height="300" src="./Images/Menu-3.jpg"
+                            width="300" />
+                        <span class="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                            -25%
+                        </span>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-500">
+                            Hyderabad Biriyani
+                            <span class="text-yellow-500">
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                                <i class="fas fa-star">
+                                </i>
+                            </span>
+                        </p>
+                        <h3 class="text-lg font-bold text-gray-800">
+                            Chicken Biriyani (Family Pack)
+                        </h3>
+                        <p class="text-gray-500 text-xs mb-1 font-semibold">
+                            PACK OF 5 | MIRCHI GRAVY | RAITA/PICKLE & SWEET
+                        </p>
+                        <p class="text-orange-500 font-bold">
+                            PRICE: ₹499
+                            <span class="line-through text-gray-500">
+                                ₹649
+                            </span>
+                            <span class="text-gray-500 text-sm  font-bold"> (Takeaway Price)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Briyani @ Basha -->
+    <div class="logo-container">
+        <div class="main-text">BIRYANI @ BASHA</div>
+        <div class="sub-text">ORDER......... EAT......... REPEAT</div>
+        <img src="./Images/Order_Eat_Repeat-transparent.png" alt="Order_Eat_Repeat-transparent" class="BB_img">
+    </div>
+
+    <!-- <section class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="./Images/food-menu-1.png" alt="Dish 1" onclick="openLightbox(this)">
+            <img src="./Images/food-menu-2.png" alt="Dish 2" onclick="openLightbox(this)">
+            <img src="./Images/food-menu-3.png" alt="Dish 3" onclick="openLightbox(this)">
+            <img src="./Images/food-menu-4.png" alt="Dish 4" onclick="openLightbox(this)">
+            <img src="./Images/food-menu-5.png" alt="Dish 5" onclick="openLightbox(this)">
+            <img src="./Images/food-menu-6.png" alt="Dish 6" onclick="openLightbox(this)">
+        </div>
+
+        <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+
+    </section> -->
+
+    <section class="contact" id="contact-us">
+        <div class="containers">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us anytime!</p>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <form id="contactForm" class="contact-form"
+                    action="https://script.google.com/macros/s/AKfycbxVjYHW3xx8qiZl38CVk2-orXgTkNYqlssH7TMFkIymUL1asFYrOlC6OClbYGTJSrvW/exec"
+                    method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <a href="https://maps.app.goo.gl/YXWSrQqReoPeLUePA" target="_blank"><i class="bx bx-map"></i>No.06,
+                        Kaka Chandamiyan
+                        Street, Ambur, Tirupathur, Tamil Nadu
+                        635802
+
+                    </a>
+                    <a href="callto:+917010933659"><i class="bx bx-phone"></i> +91 70109 33659</a>
+
+                    <!-- Social Media -->
+                    <div class="social">
+                        <a href=" https://www.facebook.com/share/18TWFuKCWW/" target="_blank"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/bashafoodambur/" target="_blank"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://x.com/basha_biryani" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.threads.net/@bashafoodambur" target="_blank"><i
+                                class="fa-brands fa-threads"></i></a>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.351202296693!2d78.7162286!3d12.7870642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad0913b558ab51%3A0x971c7cf4a1edf5a9!2sBASHA!5e1!3m2!1sen!2sin!4v1741286429885!5m2!1sen!2sin"
+                        width="400" height="350" style="border:0; width: 100%; height: auto; min-height: 200px;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about-section">
+                <div class="detail-content">
+                    <a href="/" class="footer-logo">
+                        <img src="images/logo.png" alt="Basha Biriyani Logo">
+                    </a>
+                    <div class="follow-apps">
+                        <p class="follow-apps-text">Follow us for updates</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/bashafoodambur/" target="_blank"><i
+                                    class='bx bxl-instagram'></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61550980495845" target="_blank"><i
+                                    class='bx bxl-facebook'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>BASHA INFO</h4>
+                <ul>
+                    <li><a href="#">About BASHA</a></li>
+                    <li><a href="#">Fresh Taste</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li><a href="#">FAQ's & Support</a></li>
+                    <li><a href="#">Write to us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Customer Care</a></li>
+                    <li><a href="#">Supply Chain Queries</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Corporate Communications</a></li>
+                </ul>
+            </div>
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>BASHA CARE</h4>
+                <ul>
+                    <li><a href="#">Nutrition Information</a></li>
+                    <li><a href="#">Creating Brighter Futures</a></li>
+                    <li><a href="#">Trust & Taste</a></li>
+                    <li><a href="#">COVID-19 Safety</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>LEGAL</h4>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Promotional T&C</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>Copyright © 2025 Basha Foods. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
