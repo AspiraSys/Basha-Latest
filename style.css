@@ -20,6 +20,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Calibiri-Regular';
+    src: url('./Fonts/Calibri\ Regular.ttf');
+}
+
 
 /* Navbar Styling */
 nav {
@@ -1654,4 +1659,50 @@ form {
 
 .checkout-btn:hover {
     background-color: #084298;
+}
+
+/* for About Basha */
+
+main {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main>h1 {
+    color: #000;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    /* padding-top: 8%; */
+    text-align: center;
+}
+
+main .aboutContainer .imgBox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 80vh;
+}
+
+main .aboutContainer .imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+main .aboutContainer .contentBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .aboutContainer .contentBox .text {
+    font-family: 'Calibiri-Regular';
+    font-size: 20px;
+    max-width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
 }
