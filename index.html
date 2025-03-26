@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Preloading Banner Image -->
+    <link rel="preload" as="image" href="./Images/Banner.png">
+
+    <!-- Preloading Banner Video -->
+    <link rel="preload" as="video" href="./Images/Banner Video.mp4" type="video/mp4">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
     <link rel="stylesheet"
@@ -322,25 +327,9 @@
     <div class="logo-container">
         <div class="main-text">BIRYANI @ BASHA</div>
         <div class="sub-text">ORDER......... EAT......... REPEAT</div>
-        <img src="./Images/Order_Eat_Repeat-transparent.png" alt="Order_Eat_Repeat-transparent" class="BB_img">
+        <img src="./Images/Order_Eat_Repeat-transparent.png" loading="lazy" alt="Order_Eat_Repeat-transparent"
+            class="BB_img">
     </div>
-
-    <!-- <section class="gallery-section">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <img src="./Images/food-menu-1.png" alt="Dish 1" onclick="openLightbox(this)">
-            <img src="./Images/food-menu-2.png" alt="Dish 2" onclick="openLightbox(this)">
-            <img src="./Images/food-menu-3.png" alt="Dish 3" onclick="openLightbox(this)">
-            <img src="./Images/food-menu-4.png" alt="Dish 4" onclick="openLightbox(this)">
-            <img src="./Images/food-menu-5.png" alt="Dish 5" onclick="openLightbox(this)">
-            <img src="./Images/food-menu-6.png" alt="Dish 6" onclick="openLightbox(this)">
-        </div>
-
-        <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-            <img id="lightbox-img" src="" alt="">
-        </div>
-
-    </section> -->
 
     <section class="contact" id="contact-us">
         <div class="containers">
